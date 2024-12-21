@@ -26,24 +26,21 @@ namespace CRUD
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                //endpoints.MapGet("/", async context =>
+                //{
+                //    await context.Response.WriteAsync("Hello World!");
+                //});
 
-                endpoints.MapGet("/test",async context =>
-                {
-                    await context.Response.WriteAsync($"{Environment.NewLine}");
-                });
 
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Products}/{action=Item}/{id?}"
+                    pattern: "{controller=Home}/{action=Index}/{id?}"
                     );
             });
         }

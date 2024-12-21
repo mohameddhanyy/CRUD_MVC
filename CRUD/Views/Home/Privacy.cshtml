@@ -1,0 +1,52 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    @* start header *@
+    <center>
+        <nav class="nav nav-fill nav-link mt-5">
+            <a href="/Home/Index" class="btn btn-primary">Index</a>
+            <a href="/Home/AboutUs" class="btn btn-warning">AboutUs</a>
+            <a href="/Home/Privacy" class="btn btn-success">Privacy</a>
+            <a href="/Home/ContactUs" class="btn btn-secondary-subtle">ContactUs</a>
+            <a href="Account/Login" class="btn btn-danger">Login</a>
+            <a href="Account/Register" class="btn btn-info">Register</a>
+        </nav>
+    </center>
+    @* end header *@
+
+    @* start body *@
+    <section>
+        <center class="m-5">
+            <div class="m-3 p-5 bg-success text-white rounded">
+                <h1>welcome to Privacy Page</h1>
+                <p>bla bla bla loream</p>
+            </div>
+        </center>
+    </section>
+    @* end body *@
+
+    @* start footer *@
+
+    <footer class="mt-5">
+        <center>
+            <div>
+                <p>CopyRight &copy; @DateTime.Now.Year </p>
+            </div>
+        </center>
+    </footer>
+
+    @* end footer *@
+
+
+</body>
+</html>

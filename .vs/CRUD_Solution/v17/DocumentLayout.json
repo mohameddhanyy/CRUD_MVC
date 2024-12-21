@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\employyee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\employyee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\crud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0519B969-4C1F-4380-8EF4-A56679C58E21}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +48,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -50,32 +70,84 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Employyee.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Employyee.cs",
-              "RelativeDocumentMoniker": "CRUD\\Employyee.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Employyee.cs",
-              "RelativeToolTip": "CRUD\\Employyee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUD\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "CRUD\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T19:14:06.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T18:29:10.818Z",
+              "WhenOpened": "2024-12-21T19:55:31.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T19:12:20.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "CRUD\\Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "CRUD\\Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T19:57:52.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CRUD\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CRUD\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T19:56:44.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Program.cs",
-              "RelativeDocumentMoniker": "CRUD\\Program.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Program.cs",
-              "RelativeToolTip": "CRUD\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T17:57:22.24Z",
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "CRUD\\Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "CRUD\\Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T19:55:58.725Z",
               "EditorCaption": ""
             },
             {
@@ -84,15 +156,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "CRUD\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "CRUD\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBwAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T00:58:07.172Z",
+              "WhenOpened": "2024-12-21T19:28:15.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Program.cs",
+              "RelativeToolTip": "CRUD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T19:49:40.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Startup.cs",
+              "RelativeDocumentMoniker": "CRUD\\Startup.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\Startup.cs",
+              "RelativeToolTip": "CRUD\\Startup.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T19:49:42.561Z",
               "EditorCaption": ""
             }
           ]
