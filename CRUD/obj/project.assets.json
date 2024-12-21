@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_Solution\\CRUD\\CRUD.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\CRUD.csproj",
       "projectName": "CRUD",
-      "projectPath": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_Solution\\CRUD\\CRUD.csproj",
+      "projectPath": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\CRUD.csproj",
       "packagesPath": "C:\\Users\\Mohammed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_Solution\\CRUD\\obj\\",
+      "outputPath": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
