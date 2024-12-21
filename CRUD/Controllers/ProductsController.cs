@@ -23,5 +23,10 @@ namespace CRUD.Controllers
         {
             return RedirectToAction(nameof(ProductsController.GetProductDetails), new { productId = 9 });
         }
+
+        public IActionResult getproduct(int id, string name, Employyee e)
+        {
+            return Content("hello");
+        }
     }
 }
