@@ -144,3 +144,9 @@ C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\CRUD.Views.pdb
 C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
 C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\Razor\Views\Home\ContactUs.cshtml.g.cs
+C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\Razor\Views\Shared\_AuthLayout.cshtml.g.cs
+C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Mohammed\source\repos\MVC\CRUD_MVC\CRUD\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
