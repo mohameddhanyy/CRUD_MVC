@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Demo.DAL.Data
 {
-    internal class AppDbContext : DbContext
+    public class AppDbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseSqlServer("Server = . ; Database = MVCApplication ; Trusted_Connection = True");
@@ -17,7 +17,7 @@ namespace Demo.DAL.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
             => modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
-        DbSet<Department> departments { get; set; }
+        public DbSet<Department> departments { get; set; }
 
     }
 }
