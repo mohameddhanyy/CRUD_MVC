@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\data\\migrations\\20241223133153_add employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\data\\migrations\\20241223133153_add employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,6 +79,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:00:28.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:59:20.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:57:30.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:56:38.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20241223133153_Add Employee.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Migrations\\20241223133153_Add Employee.cs",
               "RelativeDocumentMoniker": "Demo.DAL\\Data\\Migrations\\20241223133153_Add Employee.cs",
@@ -83,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Demo.DAL\\Data\\AppDbContext.cs",
@@ -96,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EmployeeConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
               "RelativeDocumentMoniker": "Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
@@ -109,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Demo.DAL\\Models\\Employee.cs",
@@ -122,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Program.cs",
               "RelativeDocumentMoniker": "Demo.PL\\Program.cs",

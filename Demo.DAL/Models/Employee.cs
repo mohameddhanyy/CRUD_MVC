@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace Demo.DAL.Models
 {
-    public class Employee
+    public class Employee : ModelBase
     {
-        public int Id { get; set; }
 
         [Required(ErrorMessage = "Must Have a Value")]
         [MaxLength(20, ErrorMessage = "Max Linght is 20")]
