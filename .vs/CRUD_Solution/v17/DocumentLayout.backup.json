@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 442,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -68,14 +68,10 @@
               "RelativeDocumentMoniker": "Demo.PL\\Views\\Department\\Delete.cshtml",
               "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Department\\Delete.cshtml*",
               "RelativeToolTip": "Demo.PL\\Views\\Department\\Delete.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-23T02:32:16.896Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -137,7 +133,7 @@
               "RelativeDocumentMoniker": "Demo.PL\\Controllers\\DepartmentController.cs",
               "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Controllers\\DepartmentController.cs*",
               "RelativeToolTip": "Demo.PL\\Controllers\\DepartmentController.cs*",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAkwF0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwGUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T01:37:59.022Z",
               "EditorCaption": ""
