@@ -12,6 +12,7 @@ namespace Demo.PL
     public class Program
     {
         //test
+        //test2
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
