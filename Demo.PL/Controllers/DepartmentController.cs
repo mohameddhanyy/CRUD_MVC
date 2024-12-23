@@ -76,5 +76,30 @@ namespace Demo.PL.Controllers
             return View(department);
 
         }
+
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            return Details(id, "Delete");
+        }
+
+        [HttpPost]
+        public IActionResult Delete([FromRoute] int id , Department department)
+        {
+            if(id != department.Id) return BadRequest();
+            if(ModelState.IsValid)
+            {
+                try
+                {
+                    var count = _departmentRepo.Delete(department);
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError(String.Empty, ex.Message);
+                }
+            }
+            return View(department);
+        }
     }
 }
