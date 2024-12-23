@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,32 +51,8 @@
       "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\data\\migrations\\20241223133153_add employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\data\\migrations\\20241223133153_add employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\data\\configurations\\employeeconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\data\\configurations\\employeeconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,170 +62,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 442,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\EmployeeRepository.cs",
-              "RelativeToolTip": "Demo.BLL\\Repositories\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T14:00:28.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Interfaces\\IEmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Demo.BLL\\Interfaces\\IEmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Interfaces\\IEmployeeRepository.cs",
-              "RelativeToolTip": "Demo.BLL\\Interfaces\\IEmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:59:20.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\DepartmentRepository.cs",
-              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\DepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\DepartmentRepository.cs",
-              "RelativeToolTip": "Demo.BLL\\Repositories\\DepartmentRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAywC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:57:30.015Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IDepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Interfaces\\IDepartmentRepository.cs",
-              "RelativeDocumentMoniker": "Demo.BLL\\Interfaces\\IDepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Interfaces\\IDepartmentRepository.cs",
-              "RelativeToolTip": "Demo.BLL\\Interfaces\\IDepartmentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:56:38.081Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T19:01:44.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20241223133153_Add Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Migrations\\20241223133153_Add Employee.cs",
-              "RelativeDocumentMoniker": "Demo.DAL\\Data\\Migrations\\20241223133153_Add Employee.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Migrations\\20241223133153_Add Employee.cs",
-              "RelativeToolTip": "Demo.DAL\\Data\\Migrations\\20241223133153_Add Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:31:53.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Demo.DAL\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Demo.DAL\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:29:56.403Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T18:58:27.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EmployeeConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
-              "RelativeDocumentMoniker": "Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
-              "RelativeToolTip": "Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAhwA8AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:27:22.263Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T18:58:26.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Demo.DAL\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Models\\Employee.cs",
-              "RelativeToolTip": "Demo.DAL\\Models\\Employee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:13:01.278Z",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T18:58:23.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T18:57:49.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T18:57:48.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Program.cs",
-              "RelativeDocumentMoniker": "Demo.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Program.cs",
-              "RelativeToolTip": "Demo.PL\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Models\\Employee.cs",
+              "RelativeToolTip": "Demo.DAL\\Models\\Employee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T04:28:05.478Z",
+              "WhenOpened": "2024-12-23T18:57:06.494Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1256,
-          "SelectedChildIndex": -1,
-          "Children": [
+            },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T18:55:29.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T18:55:24.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:54:29.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:54:24.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:54:23.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Startup.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Startup.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Startup.cs",
+              "RelativeToolTip": "Demo.PL\\Startup.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:53:37.68Z",
+              "EditorCaption": ""
             }
           ]
         }

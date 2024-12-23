@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Demo.BLL.Repositories
 {
-    internal class EmployeeRepository  : GenericRepository<Employee> , IEmployeeRepository
+    public class EmployeeRepository  : GenericRepository<Employee> , IEmployeeRepository
     {
         public EmployeeRepository(AppDbContext appDbContext) : base(appDbContext)
         {
