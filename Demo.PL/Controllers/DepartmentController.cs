@@ -1,6 +1,7 @@
 ﻿using Demo.BLL.Interfaces;
 using Demo.DAL.Models;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace Demo.PL.Controllers
 {
@@ -39,7 +40,7 @@ namespace Demo.PL.Controllers
         }
 
         [HttpGet]
-        public IActionResult Details(int? id)
+        public IActionResult Details(int? id , string viewName = "Details")
         {
             if (!id.HasValue) return BadRequest();
 
@@ -47,7 +48,33 @@ namespace Demo.PL.Controllers
 
             if (department == null) return NotFound();
 
+            return View(viewName,department);
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int? id)
+        {
+            return Details(id, "Edit");
+        }
+
+        [HttpPost]
+        public IActionResult Edit([FromRoute] int id,Department department)
+        {
+            if (id != department.Id) return BadRequest();
+            if (ModelState.IsValid) 
+            {
+                try
+                {
+                var count = _departmentRepo.Update(department);
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError(String.Empty,ex.Message);
+                }
+            }
             return View(department);
+
         }
     }
 }
