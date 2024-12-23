@@ -21,13 +21,19 @@ namespace Demo.DAL.Models
 
         [DataType(DataType.Currency)]
         public decimal Salary { get; set; }
+        [Display(Name = "Active")]
+
         public bool IsActive { get; set; }
 
         [EmailAddress]
         public string Email { get; set; }
 
         [Phone]
+        [Display(Name = "Phone Number")]
+
         public string PhoneNumber { get; set; }
+        [Display(Name = "Hire Date")]
+
         public DateTime HireDate { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime CreationDate { get; set; }
