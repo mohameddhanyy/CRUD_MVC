@@ -1,3 +1,5 @@
+using Demo.BLL.Interfaces;
+using Demo.BLL.Repositories;
 using Demo.DAL.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,6 +31,7 @@ namespace Demo.PL
             services.AddDbContext<AppDbContext>(option => {
                 option.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
+            services.AddScoped<IDepartmentRepository,DepartmentRepository>(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,7 +52,6 @@ namespace Demo.PL
 
             app.UseRouting();
 
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
