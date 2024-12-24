@@ -16,6 +16,7 @@ namespace Demo.PL.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Message"] = "Hello this is Message : From ViewData";
             var employees = _employeeRepo.GetAll();
             return View(employees);
         }

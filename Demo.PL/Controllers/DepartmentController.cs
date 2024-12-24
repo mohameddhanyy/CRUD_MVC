@@ -16,6 +16,8 @@ namespace Demo.PL.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Message"] = "Hello";
+            ViewBag.Message = "Hello This is Message : From ViewBag";
             var departments = _departmentRepo.GetAll();
             return View(departments);
         }
@@ -32,15 +34,16 @@ namespace Demo.PL.Controllers
             {
                 var count = _departmentRepo.Add(department);
                 if (count > 0)
-                {
-                    return RedirectToAction("Index");
-                }
+                    TempData["Message"] = "Department Created Successfully";
+                else
+                    TempData["Message"] = "an Error Occured While Create Department";
+                return RedirectToAction("Index");
             }
             return View(department);
         }
 
         [HttpGet]
-        public IActionResult Details(int? id , string viewName = "Details")
+        public IActionResult Details(int? id, string viewName = "Details")
         {
             if (!id.HasValue) return BadRequest();
 
@@ -48,7 +51,7 @@ namespace Demo.PL.Controllers
 
             if (department == null) return NotFound();
 
-            return View(viewName,department);
+            return View(viewName, department);
         }
 
         [HttpGet]
@@ -58,19 +61,19 @@ namespace Demo.PL.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit([FromRoute] int id,Department department)
+        public IActionResult Edit([FromRoute] int id, Department department)
         {
             if (id != department.Id) return BadRequest();
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
                 try
                 {
-                var count = _departmentRepo.Update(department);
+                    var count = _departmentRepo.Update(department);
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
                 {
-                    ModelState.AddModelError(String.Empty,ex.Message);
+                    ModelState.AddModelError(String.Empty, ex.Message);
                 }
             }
             return View(department);
@@ -84,10 +87,10 @@ namespace Demo.PL.Controllers
         }
 
         [HttpPost]
-        public IActionResult Delete([FromRoute] int id , Department department)
+        public IActionResult Delete([FromRoute] int id, Department department)
         {
-            if(id != department.Id) return BadRequest();
-            if(ModelState.IsValid)
+            if (id != department.Id) return BadRequest();
+            if (ModelState.IsValid)
             {
                 try
                 {

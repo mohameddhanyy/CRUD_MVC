@@ -37,5 +37,8 @@ namespace Demo.DAL.Models
         public DateTime HireDate { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime CreationDate { get; set; }
+
+        public int? DepartmentId { get; set; }
+        public Department Department { get; set; }
     }
 }
