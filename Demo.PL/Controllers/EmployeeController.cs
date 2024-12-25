@@ -2,6 +2,7 @@
 using Demo.DAL.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Linq;
 
 namespace Demo.PL.Controllers
 {
@@ -14,10 +15,14 @@ namespace Demo.PL.Controllers
             _employeeRepo = employeeRepo;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string name)
         {
-            ViewData["Message"] = "Hello this is Message : From ViewData";
-            var employees = _employeeRepo.GetAll();
+            var employees = Enumerable.Empty<Employee>();
+            if(String.IsNullOrEmpty(name))
+             employees = _employeeRepo.GetAll();
+            else 
+             employees = _employeeRepo.GetEmployeeByName(name.ToLower());
+
             return View(employees);
         }
 

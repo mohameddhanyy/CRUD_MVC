@@ -7,16 +7,6 @@
 <h1>All Departments</h1>
 
  <br />
-<div class="alert alert-danger">
-     <h4>@ViewData["Message"]</h4>  
-     <h4>@ViewBag.Message</h4>
-</div>
-@if (!String.IsNullOrEmpty(@TempData["Message"] as string))
-{
-<div class="alert alert-danger">
-    <h4>@TempData["Message"]</h4>
-</div>    
-}
 
  <a asp-controller="Department" asp-action="Create" class="btn btn-outline-primary">Create New Department</a>
  <br />
