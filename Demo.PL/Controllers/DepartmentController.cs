@@ -7,18 +7,18 @@ namespace Demo.PL.Controllers
 {
     public class DepartmentController : Controller
     {
-        private readonly IDepartmentRepository _departmentRepo;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public DepartmentController(IDepartmentRepository departmentRepo)
+        public DepartmentController(IUnitOfWork unitOfWork)
         {
-            _departmentRepo = departmentRepo;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
             ViewData["Message"] = "Hello";
             ViewBag.Message = "Hello This is Message : From ViewBag";
-            var departments = _departmentRepo.GetAll();
+            var departments = _unitOfWork.DepartmentRepository.GetAll();
             return View(departments);
         }
 
@@ -32,7 +32,8 @@ namespace Demo.PL.Controllers
         {
             if (ModelState.IsValid)
             {
-                var count = _departmentRepo.Add(department);
+                var count = _unitOfWork.DepartmentRepository.Add(department);
+                _unitOfWork.Complete();
                 if (count > 0)
                     TempData["Message"] = "Department Created Successfully";
                 else
@@ -47,7 +48,7 @@ namespace Demo.PL.Controllers
         {
             if (!id.HasValue) return BadRequest();
 
-            var department = _departmentRepo.Get(id.Value);
+            var department = _unitOfWork.DepartmentRepository.Get(id.Value);
 
             if (department == null) return NotFound();
 
@@ -68,7 +69,8 @@ namespace Demo.PL.Controllers
             {
                 try
                 {
-                    var count = _departmentRepo.Update(department);
+                    var count = _unitOfWork.DepartmentRepository.Update(department);
+                    _unitOfWork.Complete();
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
@@ -94,7 +96,8 @@ namespace Demo.PL.Controllers
             {
                 try
                 {
-                    var count = _departmentRepo.Delete(department);
+                    var count = _unitOfWork.DepartmentRepository.Delete(department);
+                    _unitOfWork.Complete();
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)

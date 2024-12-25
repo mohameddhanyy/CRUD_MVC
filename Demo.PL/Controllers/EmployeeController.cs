@@ -11,21 +11,21 @@ namespace Demo.PL.Controllers
     public class EmployeeController : Controller
     {
         private readonly IMapper _mapper;
-        private readonly IEmployeeRepository _employeeRepo;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public EmployeeController(IMapper mapper, IEmployeeRepository employeeRepo)
+        public EmployeeController(IMapper mapper, IUnitOfWork unitOfWork )
         {
             _mapper = mapper;
-            _employeeRepo = employeeRepo;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index(string name)
         {
             var employees = Enumerable.Empty<Employee>();
             if (String.IsNullOrEmpty(name))
-                employees = _employeeRepo.GetAll();
+                employees = _unitOfWork.EmployeeRepository.GetAll();
             else
-                employees = _employeeRepo.GetEmployeeByName(name.ToLower());
+                employees = _unitOfWork.EmployeeRepository.GetEmployeeByName(name.ToLower());
             var mappedEmployees = _mapper.Map<IEnumerable<Employee>, IEnumerable<EmployeeViewModel>>(employees);
 
             return View(mappedEmployees);
@@ -57,7 +57,8 @@ namespace Demo.PL.Controllers
             var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
             if (ModelState.IsValid)
             {
-                var count = _employeeRepo.Add(mappedEmployee);
+                var count = _unitOfWork.EmployeeRepository.Add(mappedEmployee);
+                _unitOfWork.Complete();
                 if (count > 0)
                 {
                     return RedirectToAction("Index");
@@ -71,7 +72,7 @@ namespace Demo.PL.Controllers
         {
             if (!id.HasValue) return BadRequest();
 
-            var employee = _employeeRepo.Get(id.Value);
+            var employee = _unitOfWork.EmployeeRepository.Get(id.Value);
 
             var mappedEmployee = _mapper.Map<Employee, EmployeeViewModel>(employee);
 
@@ -97,7 +98,8 @@ namespace Demo.PL.Controllers
             {
                 try
                 {
-                    var count = _employeeRepo.Update(mappedEmployee);
+                    var count = _unitOfWork.EmployeeRepository.Update(mappedEmployee);
+                    _unitOfWork.Complete();
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
@@ -126,7 +128,8 @@ namespace Demo.PL.Controllers
                 try
                 {
 
-                    var count = _employeeRepo.Delete(mappedEmployee);
+                    var count = _unitOfWork.EmployeeRepository.Delete(mappedEmployee);
+                    _unitOfWork.Complete();
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
