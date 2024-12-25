@@ -1,7 +1,72 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CCD1AB-0928-47DE-B2DC-ECD8932494CA}|Demo.BLL\\Demo.BLL.csproj|solutionrelative:demo.bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\demo.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\demo.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\data\\configurations\\departmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\data\\configurations\\departmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\data\\configurations\\employeeconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\data\\configurations\\employeeconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA36A325-5F1D-44C1-A48C-DFCCBA5ED5BC}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\employee\\partial\\createeditpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\employee\\partial\\createeditpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|c:\\users\\mohammed\\source\\repos\\mvc\\crud_mvc\\demo.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FC6818-5F67-4050-A18A-8CC3C90EF594}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 442,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,7 +98,219 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:43:14.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Demo.DAL",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Demo.DAL.csproj",
+              "RelativeDocumentMoniker": "Demo.DAL\\Demo.DAL.csproj",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Demo.DAL.csproj",
+              "RelativeToolTip": "Demo.DAL\\Demo.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-25T12:43:13.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:43:12.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Demo.BLL\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:43:10.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
+              "RelativeToolTip": "Demo.DAL\\Data\\Configurations\\EmployeeConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:42:34.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "RelativeToolTip": "Demo.DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:42:31.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Models\\Department.cs",
+              "RelativeToolTip": "Demo.DAL\\Models\\Department.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:41:34.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Models\\Employee.cs",
+              "RelativeToolTip": "Demo.DAL\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:41:27.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Startup.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Startup.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Startup.cs",
+              "RelativeToolTip": "Demo.PL\\Startup.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:37:24.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\appsettings.json",
+              "RelativeDocumentMoniker": "Demo.PL\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\appsettings.json",
+              "RelativeToolTip": "Demo.PL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-25T12:37:22.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.DAL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Demo.DAL\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:36:58.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T12:33:23.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T12:24:33.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Demo.PL\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:16:18.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Demo.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:02:49.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateEditPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Partial\\CreateEditPartial.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Employee\\Partial\\CreateEditPartial.cshtml",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\MVC\\CRUD_MVC\\Demo.PL\\Views\\Employee\\Partial\\CreateEditPartial.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Employee\\Partial\\CreateEditPartial.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T20:30:47.51Z",
+              "EditorCaption": ""
             }
           ]
         },

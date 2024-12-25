@@ -5,21 +5,20 @@ using System;
 
 namespace Demo.PL.Controllers
 {
-    public class DepartmentController : Controller
+    public class EmployeeController : Controller
     {
-        private readonly IDepartmentRepository _departmentRepo;
+        private readonly IEmployeeRepository _employeeRepo;
 
-        public DepartmentController(IDepartmentRepository departmentRepo)
+        public EmployeeController(IEmployeeRepository employeeRepo)
         {
-            _departmentRepo = departmentRepo;
+            _employeeRepo = employeeRepo;
         }
 
         public IActionResult Index()
         {
-            ViewData["Message"] = "Hello";
-            ViewBag.Message = "Hello This is Message : From ViewBag";
-            var departments = _departmentRepo.GetAll();
-            return View(departments);
+            ViewData["Message"] = "Hello this is Message : From ViewData";
+            var employees = _employeeRepo.GetAll();
+            return View(employees);
         }
 
         [HttpGet]
@@ -27,19 +26,20 @@ namespace Demo.PL.Controllers
         {
             return View();
         }
+
         [HttpPost]
-        public IActionResult Create(Department department)
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Employee employee)
         {
             if (ModelState.IsValid)
             {
-                var count = _departmentRepo.Add(department);
+                var count = _employeeRepo.Add(employee);
                 if (count > 0)
-                    TempData["Message"] = "Department Created Successfully";
-                else
-                    TempData["Message"] = "an Error Occured While Create Department";
-                return RedirectToAction("Index");
+                {
+                    return RedirectToAction("Index");
+                }
             }
-            return View(department);
+            return View(employee);
         }
 
         [HttpGet]
@@ -47,11 +47,11 @@ namespace Demo.PL.Controllers
         {
             if (!id.HasValue) return BadRequest();
 
-            var department = _departmentRepo.Get(id.Value);
+            var employee = _employeeRepo.Get(id.Value);
 
-            if (department == null) return NotFound();
+            if (employee == null) return NotFound();
 
-            return View(viewName, department);
+            return View(viewName, employee);
         }
 
         [HttpGet]
@@ -61,14 +61,15 @@ namespace Demo.PL.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit([FromRoute] int id, Department department)
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit([FromRoute] int id, Employee employee)
         {
-            if (id != department.Id) return BadRequest();
+            if (id != employee.Id) return BadRequest();
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var count = _departmentRepo.Update(department);
+                    var count = _employeeRepo.Update(employee);
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
@@ -76,7 +77,7 @@ namespace Demo.PL.Controllers
                     ModelState.AddModelError(String.Empty, ex.Message);
                 }
             }
-            return View(department);
+            return View(employee);
 
         }
 
@@ -87,14 +88,15 @@ namespace Demo.PL.Controllers
         }
 
         [HttpPost]
-        public IActionResult Delete([FromRoute] int id, Department department)
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete([FromRoute] int id, Employee employee)
         {
-            if (id != department.Id) return BadRequest();
+            if (id != employee.Id) return BadRequest();
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var count = _departmentRepo.Delete(department);
+                    var count = _employeeRepo.Delete(employee);
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
@@ -102,7 +104,8 @@ namespace Demo.PL.Controllers
                     ModelState.AddModelError(String.Empty, ex.Message);
                 }
             }
-            return View(department);
+            return View(employee);
         }
+
     }
 }

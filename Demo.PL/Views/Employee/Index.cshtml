@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Employee>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All Employees</h1>
+<br />
+
+<div class="alert alert-danger">
+    <h4>@ViewData["Message"]</h4>
+</div>
+
+<a asp-action="Create" class="btn btn-outline-primary">Create New Employee</a>
+<br />
+<br />
+@if (Model.Count() > 0)
+{
+
+
+    <table class="mt-4 table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(E => E.Name)</th>
+                <th>@Html.DisplayNameFor(E => E.Salary)</th>
+                <th>@Html.DisplayNameFor(E => E.Address)</th>
+                <th>@Html.DisplayNameFor(E => E.Department)</th>
+                <th>@Html.DisplayNameFor(E => E.Email)</th>
+                <th>@Html.DisplayNameFor(E => E.PhoneNumber)</th>
+                <th>@Html.DisplayNameFor(E => E.HireDate)</th>
+                <th>@Html.DisplayNameFor(E => E.IsActive)</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model)
+            {
+                <tr>
+                    <td>@employee.Name</td>
+                    <td>@Html.DisplayFor(M => employee.Salary)</td>
+                    <td>@employee.Address</td>
+                    <td>@employee.Department?.Name</td>
+                    <td>@Html.DisplayFor(M => employee.Email)</td>
+                    <td>@employee.PhoneNumber</td>
+                    <td>@employee.HireDate</td>
+                    <td>@Html.DisplayFor(M => employee.IsActive)</td>
+                    <partial name="_ButtonsPartial" model="@employee.Id"/>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+
+{
+    <br>
+    <br>
+    <div class="alert alert-info m-4">
+        <h3>There is no Employees</h3>
+    </div>
+}
+
+

@@ -14,6 +14,10 @@ namespace Demo.DAL.Data.Configurations
         public void Configure(EntityTypeBuilder<Department> builder)
         {
             builder.Property(b => b.Id).UseIdentityColumn(10, 10);
+
+            builder.HasMany(b => b.Employees)
+                .WithOne(b=>b.Department)
+                .HasForeignKey(b => b.DepartmentId);
         }
     }
 }

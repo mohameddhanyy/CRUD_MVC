@@ -8,22 +8,13 @@
 <br />
 
 <form asp-action="Delete">
-    <div asp-validation-summary="All"></div>
-    <div class="form-group">
-        <label class="col col-form-label" asp-for="Code"></label>
-        <input class="form-control" asp-for="Code" readonly />
-    </div>
 
-    <div class="form-group">
-        <label class="col col-form-label" asp-for="Name"></label>
-        <input class="form-control" asp-for="Name" readonly />
-    </div>
-
-    <div class="form-group">
-        <label class="col col-form-label" asp-for="DateOfCreation"></label>
-        <input class="form-control" asp-for="DateOfCreation" readonly />
-    </div>
-
+    <partial name="Partial/DeleteDetailsPartial" />
     <input type="submit" value="Delete" class="btn btn-danger" /> | 
     <a asp-action="Index">Return To Departments</a>
 </form> 
+
+
+@section ValidationScriptSection {
+    <partial name="_ValidationScriptsPartial" />
+}

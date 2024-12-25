@@ -7,6 +7,17 @@
 <h1>All Departments</h1>
 
  <br />
+<div class="alert alert-danger">
+     <h4>@ViewData["Message"]</h4>  
+     <h4>@ViewBag.Message</h4>
+</div>
+@if (!String.IsNullOrEmpty(@TempData["Message"] as string))
+{
+<div class="alert alert-danger">
+    <h4>@TempData["Message"]</h4>
+</div>    
+}
+
  <a asp-controller="Department" asp-action="Create" class="btn btn-outline-primary">Create New Department</a>
  <br />
  <br />
@@ -29,23 +40,9 @@
             {
                 <tr>
                     <td>@departmet.Name</td>
-                    <td>@departmet.Code</td>
-                    <td>@departmet.DateOfCreation
-                    <td>
-                        <a asp-controller="Department" asp-action="Details" asp-route-id="@departmet.Id" class="btn btn-warning">
-                            <i class="fas fa-eye"> </i> Details
-                        </a>
-                    </td>
-                    <td>
-                        <a asp-controller="Department" asp-action="Edit" asp-route-id="@departmet.Id" class="btn btn-success">
-                            <i class="fas fa-edit"> </i> Update
-                        </a>
-                    </td>
-                    <td>
-                        <a asp-controller="Department" asp-action="Delete" asp-route-id="@departmet.Id" class="btn btn-danger">
-                            <i class="fas fa-trash"> </i> Delete
-                        </a>
-                    </td>
+                    <td>@departmet.Code</td> 
+                    <td>@departmet.DateOfCreation</td>
+                    <partial name="_ButtonsPartial" model="@departmet.Id" />
                 </tr>
             }
         </tbody>
@@ -57,6 +54,6 @@ else
     <br>
     <br>
     <div class="alert alert-info m-4">
-        <h3>There is no Department</h3>
+        <h3>There is no Departments</h3>
     </div>
 }
