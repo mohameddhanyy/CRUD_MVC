@@ -23,6 +23,7 @@
                 <th>@Html.DisplayNameFor(E => E.Name)</th>
                 <th>@Html.DisplayNameFor(E => E.Salary)</th>
                 <th>@Html.DisplayNameFor(E => E.Address)</th>
+                <th>@Html.DisplayNameFor(E => E.Department)</th>
                 <th>@Html.DisplayNameFor(E => E.Email)</th>
                 <th>@Html.DisplayNameFor(E => E.PhoneNumber)</th>
                 <th>@Html.DisplayNameFor(E => E.HireDate)</th>
@@ -39,6 +40,7 @@
                     <td>@employee.Name</td>
                     <td>@Html.DisplayFor(M => employee.Salary)</td>
                     <td>@employee.Address</td>
+                    <td>@employee.Department?.Name</td>
                     <td>@Html.DisplayFor(M => employee.Email)</td>
                     <td>@employee.PhoneNumber</td>
                     <td>@employee.HireDate</td>

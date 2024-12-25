@@ -29,7 +29,7 @@ namespace Demo.PL
         {
             services.AddControllersWithViews();
             services.AddDbContext<AppDbContext>(option => {
-                option.UseSqlServer(Configuration.GetConnectionString("Default"));
+                option.UseLazyLoadingProxies().UseSqlServer(Configuration.GetConnectionString("Default"));
             });
             services.AddScoped<IDepartmentRepository,DepartmentRepository>(); 
             services.AddScoped<IEmployeeRepository,EmployeeRepository>();

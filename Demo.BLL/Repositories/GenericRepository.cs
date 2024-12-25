@@ -41,7 +41,7 @@ namespace Demo.BLL.Repositories
 
         public IEnumerable<T> GetAll()
         {
-            return _dbContext.Set<T>().AsNoTracking().ToList();
+            return _dbContext.Set<T>().ToList();
         }
 
 
