@@ -1,5 +1,8 @@
 ﻿using Demo.BLL.Interfaces;
 using Demo.BLL.Repositories;
+using Demo.DAL.Models;
+using Demo.PL.Helpers;
+using Demo.PL.ViewModels;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Demo.PL.Extensions

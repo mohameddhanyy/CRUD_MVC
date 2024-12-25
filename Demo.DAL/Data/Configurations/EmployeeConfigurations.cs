@@ -14,6 +14,7 @@ namespace Demo.DAL.Data.Configurations
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
             builder.Property(P => P.Salary).HasColumnType("Decimal(18,2)");
+            builder.Property(P => P.Name).IsRequired(true).HasMaxLength(50);
                 
         }
     }

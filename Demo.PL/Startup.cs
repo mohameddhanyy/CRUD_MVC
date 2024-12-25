@@ -1,7 +1,10 @@
 using Demo.BLL.Interfaces;
 using Demo.BLL.Repositories;
 using Demo.DAL.Data;
+using Demo.DAL.Models;
 using Demo.PL.Extensions;
+using Demo.PL.Helpers;
+using Demo.PL.ViewModels;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,7 +35,7 @@ namespace Demo.PL
             services.AddDbContext<AppDbContext>(option => {
                 option.UseLazyLoadingProxies().UseSqlServer(Configuration.GetConnectionString("Default"));
             });
-
+            services.AddAutoMapper(M => M.AddProfile(new MappingProfile()));
             services.AddAplicationServices();
         }
 
