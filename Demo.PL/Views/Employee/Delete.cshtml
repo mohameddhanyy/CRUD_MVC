@@ -9,6 +9,8 @@
 
 <form asp-action="Delete">
     <partial name="Partial/DeleteDetailsPartial" />
+
+    <input type="hidden" asp-for="ImageName" />
     <input type="submit" value="Delete" class="btn btn-primary" /> |
     <a asp-action="Index" class="btn btn-light">Return To Employees</a>
 </form>

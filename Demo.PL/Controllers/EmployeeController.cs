@@ -6,6 +6,7 @@ using System;
 using System.Linq;
 using AutoMapper;
 using System.Collections.Generic;
+using Demo.PL.Helpers;
 namespace Demo.PL.Controllers
 {
     public class EmployeeController : Controller
@@ -42,6 +43,9 @@ namespace Demo.PL.Controllers
         public IActionResult Create(EmployeeViewModel employeeVM)
         {
             //MANUAL MAPPING
+
+            employeeVM.ImageName = DocumentSetting.UploadFile(employeeVM.Image, "images");
+
 
             ///var emp = new Employee()
             ///{
@@ -91,6 +95,8 @@ namespace Demo.PL.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit([FromRoute] int id, EmployeeViewModel employeeVM)
         {
+            employeeVM.ImageName = DocumentSetting.UploadFile(employeeVM.Image, "images");
+
             if (id != employeeVM.Id) return BadRequest();
             var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
 
@@ -130,6 +136,7 @@ namespace Demo.PL.Controllers
 
                     var count = _unitOfWork.EmployeeRepository.Delete(mappedEmployee);
                     _unitOfWork.Complete();
+                    DocumentSetting.DeleteFile(mappedEmployee.ImageName, "images");
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
