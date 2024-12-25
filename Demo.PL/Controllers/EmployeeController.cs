@@ -1,29 +1,35 @@
 ﻿using Demo.BLL.Interfaces;
 using Demo.DAL.Models;
+using Demo.PL.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
-
+using AutoMapper;
+using System.Collections.Generic;
+using Demo.PL.Helpers;
 namespace Demo.PL.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly IEmployeeRepository _employeeRepo;
+        private readonly IMapper _mapper;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public EmployeeController(IEmployeeRepository employeeRepo)
+        public EmployeeController(IMapper mapper, IUnitOfWork unitOfWork )
         {
-            _employeeRepo = employeeRepo;
+            _mapper = mapper;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index(string name)
         {
             var employees = Enumerable.Empty<Employee>();
-            if(String.IsNullOrEmpty(name))
-             employees = _employeeRepo.GetAll();
-            else 
-             employees = _employeeRepo.GetEmployeeByName(name.ToLower());
+            if (String.IsNullOrEmpty(name))
+                employees = _unitOfWork.EmployeeRepository.GetAll();
+            else
+                employees = _unitOfWork.EmployeeRepository.GetEmployeeByName(name.ToLower());
+            var mappedEmployees = _mapper.Map<IEnumerable<Employee>, IEnumerable<EmployeeViewModel>>(employees);
 
-            return View(employees);
+            return View(mappedEmployees);
         }
 
         [HttpGet]
@@ -34,17 +40,35 @@ namespace Demo.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Employee employee)
+        public IActionResult Create(EmployeeViewModel employeeVM)
         {
+            //MANUAL MAPPING
+
+            employeeVM.ImageName = DocumentSetting.UploadFile(employeeVM.Image, "images");
+
+
+            ///var emp = new Employee()
+            ///{
+            ///    Name = employeeVM.Name,
+            ///    Salary = employeeVM.Salary,
+            ///    Address = employeeVM.Address,
+            ///    Email = employeeVM.Email,
+            ///    IsActive = employeeVM.IsActive,
+            ///    PhoneNumber = employeeVM.PhoneNumber,
+            ///    HireDate = employeeVM.HireDate,            
+            ///};
+
+            var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
             if (ModelState.IsValid)
             {
-                var count = _employeeRepo.Add(employee);
+                var count = _unitOfWork.EmployeeRepository.Add(mappedEmployee);
+                _unitOfWork.Complete();
                 if (count > 0)
                 {
                     return RedirectToAction("Index");
                 }
             }
-            return View(employee);
+            return View(employeeVM);
         }
 
         [HttpGet]
@@ -52,11 +76,13 @@ namespace Demo.PL.Controllers
         {
             if (!id.HasValue) return BadRequest();
 
-            var employee = _employeeRepo.Get(id.Value);
+            var employee = _unitOfWork.EmployeeRepository.Get(id.Value);
+
+            var mappedEmployee = _mapper.Map<Employee, EmployeeViewModel>(employee);
 
             if (employee == null) return NotFound();
 
-            return View(viewName, employee);
+            return View(viewName, mappedEmployee);
         }
 
         [HttpGet]
@@ -67,14 +93,19 @@ namespace Demo.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit([FromRoute] int id, Employee employee)
+        public IActionResult Edit([FromRoute] int id, EmployeeViewModel employeeVM)
         {
-            if (id != employee.Id) return BadRequest();
+            employeeVM.ImageName = DocumentSetting.UploadFile(employeeVM.Image, "images");
+
+            if (id != employeeVM.Id) return BadRequest();
+            var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
+
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var count = _employeeRepo.Update(employee);
+                    var count = _unitOfWork.EmployeeRepository.Update(mappedEmployee);
+                    _unitOfWork.Complete();
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
@@ -82,7 +113,7 @@ namespace Demo.PL.Controllers
                     ModelState.AddModelError(String.Empty, ex.Message);
                 }
             }
-            return View(employee);
+            return View(employeeVM);
 
         }
 
@@ -94,14 +125,18 @@ namespace Demo.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Delete([FromRoute] int id, Employee employee)
+        public IActionResult Delete([FromRoute] int id, EmployeeViewModel employeeVM)
         {
-            if (id != employee.Id) return BadRequest();
+            if (id != employeeVM.Id) return BadRequest();
+            var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var count = _employeeRepo.Delete(employee);
+
+                    var count = _unitOfWork.EmployeeRepository.Delete(mappedEmployee);
+                    _unitOfWork.Complete();
+                    DocumentSetting.DeleteFile(mappedEmployee.ImageName, "images");
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
@@ -109,7 +144,7 @@ namespace Demo.PL.Controllers
                     ModelState.AddModelError(String.Empty, ex.Message);
                 }
             }
-            return View(employee);
+            return View(employeeVM);
         }
 
     }
