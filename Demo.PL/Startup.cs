@@ -37,7 +37,6 @@ namespace Demo.PL
             services.AddDbContext<AppDbContext>(option => {
                 option.UseLazyLoadingProxies().UseSqlServer(Configuration.GetConnectionString("Default"));
             });
-
             services.AddAutoMapper(M => M.AddProfile(new MappingProfile()));
 
             services.AddAplicationServices();
@@ -57,6 +56,14 @@ namespace Demo.PL
 
             })
                 .AddEntityFrameworkStores<AppDbContext>();
+            services.ConfigureApplicationCookie(config =>
+            {
+                config.LoginPath = "/Account/SignIn";
+                config.ExpireTimeSpan = TimeSpan.FromMinutes(10);
+            });
+
+            services.AddAuthentication("Cookies");
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -76,7 +83,8 @@ namespace Demo.PL
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

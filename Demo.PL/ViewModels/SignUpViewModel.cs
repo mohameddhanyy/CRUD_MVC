@@ -18,7 +18,6 @@ namespace Demo.PL.ViewModels
 		public string Email { get; set; }
 
 		[Required(ErrorMessage = "Password is Required")]
-		[MinLength(5, ErrorMessage = "Minimun Password Length is 5")]
 		[DataType(DataType.Password)]
 		public string Password { get; set; }
 

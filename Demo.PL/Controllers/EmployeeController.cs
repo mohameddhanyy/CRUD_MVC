@@ -7,8 +7,10 @@ using System.Linq;
 using AutoMapper;
 using System.Collections.Generic;
 using Demo.PL.Helpers;
+using Microsoft.AspNetCore.Authorization;
 namespace Demo.PL.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly IMapper _mapper;
