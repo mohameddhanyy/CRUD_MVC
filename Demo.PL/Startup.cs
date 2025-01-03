@@ -55,7 +55,7 @@ namespace Demo.PL
 
 
             })
-                .AddEntityFrameworkStores<AppDbContext>();
+                .AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
             services.ConfigureApplicationCookie(config =>
             {
                 config.LoginPath = "/Account/SignIn";
