@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Demo.DAL.Models;
 using Demo.PL.ViewModels;
+using Microsoft.AspNetCore.Identity;
 
 namespace Demo.PL.Helpers
 {
@@ -9,6 +10,8 @@ namespace Demo.PL.Helpers
         public MappingProfile()
         {
             CreateMap<EmployeeViewModel, Employee>().ReverseMap();
+            CreateMap<ApplicationUser,UserViewModel>().ReverseMap();
+            CreateMap<RoleViewModel,IdentityRole>().ReverseMap();
         }
     }
 }

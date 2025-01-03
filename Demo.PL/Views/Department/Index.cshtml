@@ -32,7 +32,7 @@
                     <td>@departmet.Name</td>
                     <td>@departmet.Code</td> 
                     <td>@departmet.DateOfCreation</td>
-                    <partial name="_ButtonsPartial" model="@departmet.Id" />
+                    <partial name="_ButtonsPartial" model="@departmet.Id.ToString()" />
                 </tr>
             }
         </tbody>

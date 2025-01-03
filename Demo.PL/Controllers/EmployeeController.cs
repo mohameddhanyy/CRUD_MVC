@@ -7,14 +7,16 @@ using System.Linq;
 using AutoMapper;
 using System.Collections.Generic;
 using Demo.PL.Helpers;
+using Microsoft.AspNetCore.Authorization;
 namespace Demo.PL.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
 
-        public EmployeeController(IMapper mapper, IUnitOfWork unitOfWork )
+        public EmployeeController(IMapper mapper, IUnitOfWork unitOfWork)
         {
             _mapper = mapper;
             _unitOfWork = unitOfWork;
@@ -98,12 +100,12 @@ namespace Demo.PL.Controllers
             employeeVM.ImageName = DocumentSetting.UploadFile(employeeVM.Image, "images");
 
             if (id != employeeVM.Id) return BadRequest();
-            var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
 
             if (ModelState.IsValid)
             {
                 try
                 {
+                    var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
                     var count = _unitOfWork.EmployeeRepository.Update(mappedEmployee);
                     _unitOfWork.Complete();
                     return RedirectToAction("Index");
@@ -128,12 +130,11 @@ namespace Demo.PL.Controllers
         public IActionResult Delete([FromRoute] int id, EmployeeViewModel employeeVM)
         {
             if (id != employeeVM.Id) return BadRequest();
-            var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
             if (ModelState.IsValid)
             {
                 try
                 {
-
+                    var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
                     var count = _unitOfWork.EmployeeRepository.Delete(mappedEmployee);
                     _unitOfWork.Complete();
                     DocumentSetting.DeleteFile(mappedEmployee.ImageName, "images");

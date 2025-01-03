@@ -23,10 +23,10 @@ namespace Demo.BLL.Repositories
 
         public int Complete()
               => _appDbContext.SaveChanges();
-
         public void Dispose()
         {
             _appDbContext.Dispose();
         }
+
     }
 }
